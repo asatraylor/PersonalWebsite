@@ -1,0 +1,38 @@
+body {
+  font-family:'Georgia', Times, serif;
+  background-color: #013220;
+  color: #ffffff;
+  text-align: left;
+  padding: 5rem;
+  margin: 0;
+  font-size: 18px
+}
+
+a {
+  color:#ffffff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.profile {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 5rem auto;
+}
+
+.headshot {
+  width: 650px;
+  border-radius: 0px;
+  margin-right: 25px;
+  align-self: left;
+}
+
+.info {
+  text-align: left;
+}
